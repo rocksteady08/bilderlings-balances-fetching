@@ -46,7 +46,7 @@ Before running the script, make sure you have the following installed:
    pip install -r requirements.txt
 ```
 
-4. **Set Up Environment Variables***
+4. **Set Up Environment Variables**
    
    Create a .env file in the root directory of the project and add the following lines:
 ```
