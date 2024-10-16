@@ -56,3 +56,24 @@ YOUR_X_TOKEN=your_x_token_here
 ```
 Replace `your_x_user_token_here`, `your_x_profile_token_here`, and `your_x_token_here` with your actual API tokens.
 
+5. **Update `.gitignore`**
+Ensure that your .`env` file is listed in `.gitignore` to avoid accidentally pushing sensitive information to the repository.
+
+
+## Usage
+
+1. **Configure the Script**
+   Open the script `main.py` and modify the following variables if needed:
+
+   `account_ids`: List of your internal Bilderlings account numbers (e.g., ['AA1234', 'KA5678']).
+   `date_from` and `date_till`: Set the date range for which you want to fetch the account statements in `YYYY-MM-DD` format.
+
+2. **Run the Script**
+   
+   Execute the script with the following command:
+   ```bash
+   python main.py
+   ```
+
+3. **Check the Output**
+   The script will generate a file named `account_summary.csv` in the project directory, containing the requested data.
