@@ -30,3 +30,11 @@ Before running the script, make sure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/bilderlings-account-statement-fetcher.git
    cd bilderlings-account-statement-fetcher
+
+2. **Create a Virtual Environment (Optional but Recommended)**
+
+To keep your environment isolated, create and activate a virtual environment:
+```bash 
+   python3 -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+
