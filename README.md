@@ -37,10 +37,12 @@ To keep your environment isolated, create and activate a virtual environment:
 ```bash 
    python3 -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
+```
 
 3. **Install Required Packages**
 Install the dependencies listed in the requirements.txt file:
 ```bash
    pip install -r requirements.txt
+```
 
 
