@@ -46,4 +46,13 @@ Before running the script, make sure you have the following installed:
    pip install -r requirements.txt
 ```
 
+4. **Set Up Environment Variables***
+   
+   Create a .env file in the root directory of the project and add the following lines:
+```
+YOUR_X_USER_TOKEN=your_x_user_token_here
+YOUR_X_PROFILE_TOKEN=your_x_profile_token_here
+YOUR_X_TOKEN=your_x_token_here
+```
+Replace your_x_user_token_here, your_x_profile_token_here, and your_x_token_here with your actual API tokens.
 
